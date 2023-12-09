@@ -1,0 +1,409 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+.fs-48{
+    font-size: 3rem;
+}
+.ruler{
+    width: 4%;
+    height: 5px;
+}
+.w-15{
+    width: 15%;
+}
+.w-90{
+    width: 90%;
+}
+.w-85{
+    width: 85%;
+}
+.bg-opacity-90{
+    opacity: 90%;
+}
+.position-over{
+    top: -10%;
+    left: 50%;
+    transform: translateX(-50%) ;
+}
+.nav-link{
+    color: aliceblue;
+}
+.navhover:hover a{
+    color: white;
+}
+.main{
+    background: linear-gradient(rgba(0,0,0,.4) , rgba(0,0,0,.5)),url(../imgs/hero-bg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    font-size: 4.5rem;
+}
+.main span{
+    font-size: 2.5rem;
+}
+.main span::before{
+    content: "";
+    animation: typing 7s infinite;
+}
+@keyframes typing {
+    1%{
+        content: "D";
+    }
+    2%{
+        content: "De";
+    }
+    3%{
+        content: "Dev";
+    }
+    4%{
+        content: "Deve";
+    }
+    5%{
+        content: "Devel";
+    }
+    6%{
+        content: "Develo";
+    }
+    7%{
+        content: "Develop";
+    }
+    8%{
+        content: "Develope";
+    }
+    9%{
+        content: "Developer";
+    }
+    12%{
+        content: "Developer";
+    }
+    17%{
+        content: "Develope";
+    }
+    18%{
+        content: "Develop";
+    }
+    19%{
+        content: "Develo";
+    }
+    20%{
+        content: "Devel";
+    }
+    21%{
+        content: "Deve";
+    }
+    22%{
+        content: "Dev";
+    }
+    23%{
+        content: "De";
+    }
+    28%{
+        content: "Des";
+    }
+    29%{
+        content: "Desi";
+    }
+    30%{
+        content: "Desig";
+    }
+    31%{
+        content: "Design";
+    }
+    32%{
+        content: "Designe";
+    }
+    33%{
+        content: "Designer";
+    }
+    35%{
+        content: "Designer"
+    }
+    36%{
+        content: "Designe";
+    }
+    37%{
+        content: "Design";
+    }
+    38%{
+        content: "Desig";
+    }
+    39%{
+        content: "Desi";
+    }
+    40%{
+        content: "Des";
+    }
+    41%{
+        content: "De";
+    }
+    42%{
+        content: "D";
+    }
+    43%{
+        content: "";
+    }
+    46%{
+        content: "F";
+    }
+    47%{
+        content: "Fr";
+    }
+    48%{
+        content: "Fre";
+    }
+    49%{
+        content: "Free";
+    }
+    50%{
+        content: "Freel";
+    }
+    51%{
+        content: "Freela";
+    }
+    52%{
+        content: "Freelan";
+    }
+    53%{
+        content: "Freelanc";
+    }
+    54%{
+        content: "Freelance";
+    }
+    55%{
+        content: "Freelancer";
+    }
+    57%{
+        content: "Freelancer";
+    }
+    58%{
+        content: "Freelance";
+    }
+    59%{
+        content: "Freelanc";
+    }
+    60%{
+        content: "Freelan";
+    }
+    61%{
+        content: "Freela";
+    }
+    62%{
+        content: "Freel";
+    }
+    63%{
+        content: "Free";
+    }
+    64%{
+        content: "Fre";
+    }
+    65%{
+        content: "Fr";
+    }
+    66%{
+        content: "F";
+    }
+    65%{
+        content: "";
+    }
+    70%{
+        content: "P";
+    }
+    71%{
+        content: "Ph";
+    }
+    72%{
+        content: "Pho";
+    }
+    73%{
+        content: "Phot";
+    }
+    74%{
+        content: "Photo";
+    }
+    75%{
+        content: "Photog";
+    }
+    76%{
+        content: "Photogr";
+    }
+    77%{
+        content: "Photogra";
+    }
+    78%{
+        content: "Photograp";
+    }
+    79%{
+        content: "Photograph";
+    }
+    80%{
+        content: "Photographe";
+    }
+    81%{
+        content: "Photographer";
+    }
+    83%{
+        content: "Photographer";
+    }
+    84%{
+        content: "Photographe";
+    }
+    85%{
+        content: "Photograph";
+    }
+    86%{
+        content: "Photograp";
+    }
+    87%{
+        content: "Photogra";
+    }
+    88%{
+        content: "Photogr";
+    }
+    89%{
+        content: "Photog";
+    }
+    90%{
+        content: "Photo";
+    }
+    91%{
+        content: "Phot";
+    }
+    92%{
+        content: "Pho";
+    }
+    93%{
+        content: "Ph";
+    }
+    94%{
+        content: "P";
+    }
+    95%{
+        content: "";
+    }
+
+}
+.about{
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.name{
+    width: 50%;
+}
+.content{
+    width: 50%;
+}
+.aboutline{
+    width: 20%;
+    height: 3px;
+    border-radius: 0%;
+}
+.services{
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.cards .card{
+    width: 32%;
+}
+.card-icon{
+    margin: 0% auto 0%;
+    width: 7.5rem;
+    border: 10px solid #0D6EFD;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.card-icon i{
+    font-size: 2.5rem;
+    line-height: 6rem;
+}
+.card:hover .card-icon{
+    color: #F5F5F5;
+    background-color: #0D6EFD;
+    border-color: #CDE1F8
+}
+.details{
+    background: linear-gradient(rgba(0, 120, 255, .7) , rgba(0, 120, 255, .7)),url(../imgs/counters-bg.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.details .icon{
+    margin: 0% auto 0%;
+    width: 5rem;
+    border: 10px solid #CDE1F8;
+    border-radius: 50%;
+}
+.portfolio{
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.portfolio .img{
+    overflow: hidden;
+}
+.portfolio .card img{
+    width: 100%;
+    transition: all 1s;
+}
+.portfolio .card:hover img{
+    transform: scale(1.3);
+}
+.slider{
+    background: linear-gradient(rgba(0, 120, 255, .7) , rgba(0, 120, 255, .7)),url(../imgs/overlay-bg.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.slider .carousel-indicators [data-bs-target]{
+    background-color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.blog{
+    background-color: #F5F5F5;
+    width: 100%;
+}
+.contact{
+    width: 100%;
+    background: linear-gradient(rgba(0, 120, 255, .7) , rgba(0, 120, 255, .7)),url(../imgs/overlay-bg.jpg) ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+.contactmsg{
+    width: 50%;
+}
+.contactinfo{
+    width: 50%;
+}
+.social-icon{
+    margin: 0% auto 0%;
+    width: 4rem;
+    border: 10px solid #0D6EFD;
+    border-radius: 50%;
+    transition: all .5s;
+}
+.social-icon i{
+    line-height: 2.5rem;
+    position: relative;
+    left: 25%;
+    color: black;
+}
+.social-icon:hover {
+    background-color: #0D6EFD;
+    border-color: #CDE1F8
+}
+.social-icon:hover i{
+    color: #F5F5F5;
+}
+footer{
+    background-color: #0062D3;
+    color: white;
+}

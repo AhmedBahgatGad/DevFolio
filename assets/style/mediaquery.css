@@ -1,0 +1,29 @@
+@media screen and (max-width: 766px) {
+html{
+    font-size: 8px;
+}
+.name{
+    width: 100%;
+}
+.content{
+    width: 100%;
+}
+.cards .card{
+    width: 100%;
+}
+.contactmsg{
+    width: 100%;
+}
+.contactinfo{
+    width: 100%;
+}
+.social-icon i{
+    line-height: 1.5rem;
+    left: 0%;
+}
+}
+@media screen and (min-width: 767px) and (max-width: 1000px) {
+html{
+    font-size: 12px;
+}
+}
